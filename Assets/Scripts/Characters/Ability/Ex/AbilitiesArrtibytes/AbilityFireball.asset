@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 776691efec70f490bb11d114a538e0f8, type: 3}
+  m_Name: AbilityFireball
+  m_EditorClassIdentifier: 
+  abilityName: Fireboll
+  description: 
+  icon: {fileID: 21300000, guid: c7489bd77b29d4542a10c63f3bea6bfa, type: 3}
+  reloadTime: 1
+  lifeTime: 1
+  coast: 50
+  prefab: {fileID: 8868570591686885858, guid: 8f2910d1379ad43a092b21fba334d1b9, type: 3}
+  shootType: 0
+  attributes:
+  - Attribute: {fileID: 11400000, guid: fdf83a834b2664568848521480508185, type: 2}
+    Value: 200
+  - Attribute: {fileID: 11400000, guid: 48cf2acd6f9e34a36b1efb414af88c80, type: 2}
+    Value: 150
